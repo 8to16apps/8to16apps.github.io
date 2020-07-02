@@ -49,7 +49,7 @@
   </div>
   <span class='img-desc'></span>
 </div>
-{% endif %}
+{% else %}
 <div class="intro-header {% if include.type == "post" %}has-img geopattern" data-pattern-id="{{ page.title }}{% endif %}"
   <div class="container-md">
     <div class="row">
@@ -76,6 +76,7 @@
     </div>
   </div>
 </div>
+{% endif %}
 </header>
 
 
