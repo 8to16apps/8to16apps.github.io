@@ -5,7 +5,6 @@ subtitle: ¿Quíen soy yo? y ¿qué hago aqui?
 published: true
 image: media/portrait.png
 ---
-
 Soy [David Pulido Vargas](https://www.linkedin.com/in/david-pulido-vargas-85278419/), naci en Madrid, España, en 1976.
 
 Soy Programador de videojuegos con diez años de experiencia en la industria.
