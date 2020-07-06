@@ -3,6 +3,7 @@ layout: page
 title: Sobre mi
 subtitle: ¿Quíen soy yo? y ¿qué hago aqui?
 published: true
+image: media/portrait.png
 ---
 
 ![Mi foto]({{site.baseurl}}/media/portrait.png)
