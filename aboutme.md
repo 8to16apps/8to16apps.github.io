@@ -1,16 +1,22 @@
 ---
 layout: page
 title: About me
-subtitle: Why you'd want to go on a date with me
+subtitle: ¿Quíen soy yo? y ¿qué hago aqui?
+published: true
 ---
 
-My name is Inigo Montoya. I have the following qualities:
+![Mi foto]({{site.baseurl}}/media/portrait.png)
 
-- I rock a great mustache
-- I'm extremely loyal to my family
+Soy [David Pulido Vargas](https://www.linkedin.com/in/david-pulido-vargas-85278419/), naci en Madrid, España, en 1976.
 
-What else do you need?
+Soy Programador de videojuegos con diez años de experiencia en la industria.
 
-### my history
+He trabajado para compañias medianas y pequeñas y contribuido a distintos proyectos.
 
-To be honest, I'm having some trouble remembering right now, so why don't you just watch [my movie](https://en.wikipedia.org/wiki/The_Princess_Bride_%28film%29) and it will answer **all** your questions.
+Mis ultimos años trabajo estoy haciendo juegos moviles educativos para niños y niñas en la empresa dueña de la marca Pocoyo.
+
+**Mi Proposito**
+
+Este es un proyecto personal que tiene como objetivo crear videojuegos con el motor de juegos [Godot Engine](https://godotengine.org/)
+
+También crear prototipos de juegos y subir el codigo bajo la licencia MIT como forma de contribuir a la comunidad de Godot.
