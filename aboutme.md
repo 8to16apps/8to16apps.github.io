@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About me
+title: Sobre mi
 subtitle: ¿Quíen soy yo? y ¿qué hago aqui?
 published: true
 ---
@@ -15,7 +15,7 @@ He trabajado para compañias medianas y pequeñas y contribuido a distintos proy
 
 Mis ultimos años trabajo estoy haciendo juegos moviles educativos para niños y niñas en la empresa dueña de la marca Pocoyo.
 
-**Mi Proposito**
+## **Mi Proposito**
 
 Este es un proyecto personal que tiene como objetivo crear videojuegos con el motor de juegos [Godot Engine](https://godotengine.org/)
 
