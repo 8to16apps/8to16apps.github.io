@@ -1,6 +1,6 @@
 ---
 layout: post
-published: false
+published: true
 title: Presentación del Proyecto
 subtitle: ¿Qué pretendo hacer con este blog?
 date: '2020-07-07'
@@ -34,9 +34,3 @@ Hey aunque sea yo solo, a lo mejor, si tengo éxito, puedo vender la cuenta y ha
 En realidad es una broma interna con algunos antiguos compañeros de trabajo. Les dije que si algun dia montaba una empresa se llamaría **8 to 16 apps.** Con horario de trabajo de intensivo de 8h a 16h.
 
 Además el nombre queda como muy _"computer friendly"_ interpretando 8 bits y 16 bits.
-
-
-
-
-
-
