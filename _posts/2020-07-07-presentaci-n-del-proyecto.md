@@ -11,7 +11,7 @@ En este primer post voy a hacer un presentación de mis intenciones y del uso qu
 
 Principalmente mi intención es hacer videojuegos en el motor de [Godot Engine](https://godotengine.org/) y publicarlos en Google Play y, si me decido, en otras plataformas como itch.io.
 
-Al estar desarrollando yo solo en el tiempo libre que me deja el trabajo y jugar al Fornite, los juegos que hago son casual, pequeños y sin muchas pretensiones.
+Al estar desarrollando yo solo en el tiempo libre que me deja el trabajo y jugar al Fortnite, los juegos que hago son casual, pequeños y sin muchas pretensiones.
 
 Aunque me encantaría hacer un clon de _Zelda: Breath Of The Wild,_ no sería posible. 
 
