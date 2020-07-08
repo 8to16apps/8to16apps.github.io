@@ -16,6 +16,7 @@ layout: page
     <p class="post-meta">
       <iframe src="https://ghbtns.com/github-btn.html?user={{ site.github.owner_name }}&repo={{ repo.name }}&type=star&count=true" frameborder="0" scrolling="0" width="120px" height="20px"></iframe>      
       <iframe src="https://ghbtns.com/github-btn.html?user={{ site.github.owner_name }}&repo={{ repo.name }}&type=fork&count=true" frameborder="0" scrolling="0" width="120px" height="20px"></iframe>
+      <time datetime="{{ repo.updated_at }}" title="{{ repo.updated_at }}">{{ repo.updated_at | date: '%Y-%m-%d' }}</time>
     </p>
 
     <div class="post-entry-container">
