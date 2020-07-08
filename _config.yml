@@ -23,7 +23,7 @@ author: David Pulido Vargas
 # --- List of links in the navigation bar --- #
 
 navbar-links:
-  Blog: ""
+  Blog: "index"
   Proyectos: "projects"
   Sobre Mi: "aboutme"
 
