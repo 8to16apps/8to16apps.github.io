@@ -1,0 +1,48 @@
+---
+layout: page
+---
+
+{{ content }}
+
+{% assign sorted_repos = (site.github.public_repositories | sort: 'stargazers_count') | reverse | where: "fork", "false" %}
+
+<div class="posts-list">
+  {% for repo in sorted_repos %}
+  <article class="post-preview">
+    <a href="{{ repo.html_url }}">
+      <h2 class="post-title">{{ repo.name }}</h2>
+    </a>
+
+    <p class="post-meta">
+      <iframe src="https://ghbtns.com/github-btn.html?user={{ site.github.owner_name }}&repo={{ repo.name }}&type=star&count=true" frameborder="0" scrolling="0" width="120px" height="20px"></iframe>      
+      <iframe src="https://ghbtns.com/github-btn.html?user={{ site.github.owner_name }}&repo={{ repo.name }}&type=fork&count=true" frameborder="0" scrolling="0" width="120px" height="20px"></iframe>
+    </p>
+
+    <div class="post-entry-container">
+      <div class="post-entry">
+        {% assign excerpt_length = site.excerpt_length | default: 50 %}
+        {{ repo.description | strip_html | xml_escape | truncatewords: excerpt_length }}
+        {% assign excerpt_word_count = repo.description | number_of_words %}
+        {% if excerpt_word_count > excerpt_length %}
+          <a href="{{ repo.html_url }}" class="post-read-more">[Read&nbsp;More]</a>
+        {% endif %}
+      </div>
+    </div>
+   </article>
+  {% endfor %}
+</div>
+
+{% if paginator.total_pages > 1 %}
+<ul class="pagination main-pager">
+  {% if paginator.previous_page %}
+  <li class="page-item previous">
+    <a class="page-link" href="{{ paginator.previous_page_path | relative_url }}">&larr; Newer Posts</a>
+  </li>
+  {% endif %}
+  {% if paginator.next_page %}
+  <li class="page-item next">
+    <a class="page-link" href="{{ paginator.next_page_path | relative_url }}">Older Posts &rarr;</a>
+  </li>
+  {% endif %}
+</ul>
+{% endif %}
