@@ -1,7 +1,6 @@
 ---
 layout: default
 title: HexMate
-permalink: /HexMate.html
 ---
 
 # Privacy Policy
