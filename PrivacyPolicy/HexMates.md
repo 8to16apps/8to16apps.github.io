@@ -1,5 +1,8 @@
 ---
+layout: page
+published: true
 ---
+
 # Privacy Policy
 8 to 16 Apps built the Hex Mates app as an Ad Supported app. This SERVICE is provided by 8 to 16 Apps at no cost and is intended for use as is.
 
