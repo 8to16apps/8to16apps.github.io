@@ -20,6 +20,9 @@ description: Haciendo Juegos Con Godot Engine
 # Your name to show in the footer
 author: David Pulido Vargas
 
+#Language of the page
+language: es
+
 # --- List of links in the navigation bar --- #
 
 navbar-links:
